@@ -1,2 +1,2 @@
 # python-codes
-Contains of Python practice exercises.
+Contains Python practice exercises.
