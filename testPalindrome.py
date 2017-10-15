@@ -17,6 +17,10 @@ class TestPalindrome(unittest.TestCase):
 		self.assertEqual(is_palindrome("selfless"),False)
 	def test_false_2(self):
 		self.assertEqual(is_palindrome("sentences"),False)
+	def test_non_string_input(self):
+		self.assertEqual(is_palindrome(123321),False)
+	def test_list_input(self):
+		self.assertEqual(is_palindrome(["racecar","Ava"]),False)
 
 if __name__ == '__main__':
 	unittest.main()
