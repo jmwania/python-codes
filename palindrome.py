@@ -1,6 +1,10 @@
 import re
 def is_palindrome(string):
 	"""A function that returns true if a  string is a palidrome"""
+
+	#Test if input is a string
+	if type(string) != str:
+		return False
 	#Convert the string to lowercase
 	string = string.lower()
 
@@ -21,4 +25,4 @@ def is_palindrome(string):
 		return False
 
 if __name__ == '__main__':
-	print is_palindrome("Race car")
+	print is_palindrome(123321)
