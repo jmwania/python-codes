@@ -1,5 +1,7 @@
 class Employee:
-	"""An employee class to help us with OOP"""
+
+	"""An employee class to help us with OOP
+	Tutorial on YouTube courtesy of Corey Schafer"""
 	#These two are class variables
 	num_of_emps = 0
 	raise_amount = 1.04
@@ -18,7 +20,7 @@ class Employee:
 	def full_name(self):
 		#Found this to be fancy for formatted output.
 		#Don't forget to add self when referring to variables
-		print '{} {}'.format(self.first,self.last)
+		return '{} {}'.format(self.first,self.last)
 
 	#Accessing our class variable, raise_amount
 	def apply_raise(self):
@@ -42,6 +44,17 @@ class Employee:
 		if day.weekday() == 5 or day.weekday() == 6:
 			return False
 		return True
+
+	#Two other special methods besides __init__
+	def __repr__(self):
+		return "Employee('{}','{}',{})".format(self.first,self.last,self.pay)
+
+	def __str__(self):
+		#This returns 'None' under fullname for some reason. Yet to find out why!
+		#Got it! The fullname() method was printing instead of returning
+		return "Employee('{} - {}')".format(self.full_name(),self.email)
+
+
 #Implementing inheritance
 class Developer(Employee):
 
@@ -121,6 +134,13 @@ print isinstance(mgr_1,Manager)
 
 #Using issubclass
 print issubclass(Developer,Employee)
+
+#Print object in a more meaningful way using __repr__()/__str__()
+#__repr__() is the fallback special/dunder method in case __str__() is not defined
+print emp1
+
+
+
 
 
 
