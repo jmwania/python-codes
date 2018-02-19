@@ -9,8 +9,12 @@ class Employee:
 	def __init__(self,first,last,pay):
 
 		#These are instance variables"""
-		self.first = first
-		self.last = last
+
+		#Encapsulation: Private variable
+		self.__first = first
+
+		#Encapsulation: Protected variable
+		self._last = last
 		self.pay = pay
 		self.email = first + "." + last + "@email.com"
 
@@ -21,3 +25,8 @@ class Employee:
 		#Found this to be fancy for formatted output.
 		#Don't forget to add self when referring to variables
 		print '{} {}'.format(self.first,self.last)
+
+emp1 = Employee('Jillo','Abdullahi',20000)
+print emp1._Employee__first
+print emp1._last
+
