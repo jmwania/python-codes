@@ -4,10 +4,11 @@ def is_prime(num):
     else:
         for n in range(2,num):
             if num % n == 0:
-                return "{} multiplied by {} equals {}".format(n,(num/n),num)
+                print "{} multiplied by {} equals {}".format(n,(num/n),num)
+                return False
         #Else statement here runs when the looks exits normally without encountering a break.
         else:
-            return "Number is prime"
+            return True
 
 
-print is_prime(100)
+print is_prime(87)
