@@ -13,3 +13,6 @@ def binary_to_decimal(binary):
 print binary_to_decimal('1001001')
 
 
+#Short form
+
+#return int(inp, base=2)
