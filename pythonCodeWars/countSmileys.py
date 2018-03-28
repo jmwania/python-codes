@@ -8,3 +8,9 @@ def count_smileys(smileys):
     return smiley_counter
 
 print (count_smileys([';]', ':[', ';*', ':$', ';-D']))
+
+
+# Alternative
+from re import findall
+def count_smileys(arr):
+    return len(list(findall(r"[:;][-~]?[)D]", " ".join(arr))))
