@@ -1,6 +1,19 @@
 [
+  "test/test_calculator.py::TddInPythonExample::test_calculator_add_if_both_args_are_not_numbers", 
   "test/test_calculator.py::TddInPythonExample::test_calculator_add_method_returns_correct_result", 
-  "test/test_calculator.py::TddInPythonExample::test_calculator_method_returns_error_message_if_both_args_are_not_numbers", 
-  "test/test_calculator.py::TddInPythonExample::test_calculator_returns_error_message_if_x_arg_not_number", 
-  "test/test_calculator.py::TddInPythonExample::test_calculator_returns_error_message_if_y_arg_not_number"
+  "test/test_calculator.py::TddInPythonExample::test_calculator_add_returns_error_message_if_x_arg_not_number", 
+  "test/test_calculator.py::TddInPythonExample::test_calculator_add_returns_error_message_if_y_arg_not_number", 
+  "test/test_calculator.py::TddInPythonExample::test_calculator_divide_by_zero_returns_error_message", 
+  "test/test_calculator.py::TddInPythonExample::test_calculator_divide_if_both_args_are_not_numbers", 
+  "test/test_calculator.py::TddInPythonExample::test_calculator_divide_method_returns_correct_result", 
+  "test/test_calculator.py::TddInPythonExample::test_calculator_divide_returns_error_message_if_x_arg_not_number", 
+  "test/test_calculator.py::TddInPythonExample::test_calculator_divide_returns_error_message_if_y_arg_not_number", 
+  "test/test_calculator.py::TddInPythonExample::test_calculator_multiply_if_both_args_are_not_numbers", 
+  "test/test_calculator.py::TddInPythonExample::test_calculator_multiply_method_returns_correct_result", 
+  "test/test_calculator.py::TddInPythonExample::test_calculator_multiply_returns_error_message_if_x_arg_not_number", 
+  "test/test_calculator.py::TddInPythonExample::test_calculator_multiply_returns_error_message_if_y_arg_not_number", 
+  "test/test_calculator.py::TddInPythonExample::test_calculator_subtract_if_both_args_are_not_numbers", 
+  "test/test_calculator.py::TddInPythonExample::test_calculator_subtract_method_returns_correct_result", 
+  "test/test_calculator.py::TddInPythonExample::test_calculator_subtract_returns_error_message_if_x_arg_not_number", 
+  "test/test_calculator.py::TddInPythonExample::test_calculator_subtract_returns_error_message_if_y_arg_not_number"
 ]
